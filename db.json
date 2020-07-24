@@ -1,35 +1,14 @@
 {
-    "items":
-    [
-      {
-        "date": "2020-07-25T21:54:19.321186+02:00",
-        "temperatureC": -8,
-        "temperatureF": 18,
-        "summary": "Warm"
-      },
-      {
-        "date": "2020-07-26T21:54:19.321191+02:00",
-        "temperatureC": 31,
-        "temperatureF": 87,
-        "summary": "Mild"
-      },
-      {
-        "date": "2020-07-27T21:54:19.321191+02:00",
-        "temperatureC": 40,
-        "temperatureF": 103,
-        "summary": "Balmy"
-      },
-      {
-        "date": "2020-07-28T21:54:19.321192+02:00",
-        "temperatureC": 18,
-        "temperatureF": 64,
-        "summary": "Warm"
-      },
-      {
-        "date": "2020-07-29T21:54:19.321192+02:00",
-        "temperatureC": 9,
-        "temperatureF": 48,
-        "summary": "Freezing"
-      }
-    ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
